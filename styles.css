@@ -1,1 +1,39 @@
 /*  your css code here. If applicable */
+body{
+	display: flex;
+	text-align:center;
+	justify-content:center;
+	margin:0;
+	background-color:#f4f4f4;
+}
+.card{
+	width:350px;
+	padding:20px;
+	background-color:#ffffff;
+	border-radius:10px;
+		box-shadow:0 4px 8px rgba(0,0,0.15);	
+}
+.card img{
+	width:100%;
+	height:auto;
+}
+.card h1{
+	font-size:30px;
+	margin:20px 10px;
+}
+.card p{
+	font-size:17px;
+	margin: 10px 0px;
+}
+.btn{
+	background-color:#db7093;
+		color:#ffffff;
+	font-size: 18px;
+	padding: 20px 10px;
+	border:none;
+	border-radius:20px;
+	cursor:pointer;
+	
+	
+	
+}
